@@ -1,0 +1,2 @@
+/Users/reza/Documents/fluterProject/quizz_like_application/android/app/.cxx/Debug/u592g264/x86/CMakeFiles/edit_cache.dir
+/Users/reza/Documents/fluterProject/quizz_like_application/android/app/.cxx/Debug/u592g264/x86/CMakeFiles/rebuild_cache.dir
