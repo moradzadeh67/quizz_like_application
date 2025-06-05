@@ -1,11 +1,11 @@
 import 'package:quizz_like_application/data/Question.dart';
 
 List<Question> getQuestion() {
-  var firstQustion = Question();
-  firstQustion.questionTitle = 'مشهورترین شعبده باز جهان کیست؟';
-  firstQustion.imageNameNumber = '1';
-  firstQustion.correctAnswer = 2;
-  firstQustion.answerList = [
+  var firstQuestion = Question();
+  firstQuestion.questionTitle = 'مشهورترین شعبده باز جهان کیست؟';
+  firstQuestion.imageNameNumber = '1';
+  firstQuestion.correctAnswer = 2;
+  firstQuestion.answerList = [
     'مرد نقابدار',
     'دیوید کاپرفیلد',
     'مری مودینی',
@@ -16,12 +16,7 @@ List<Question> getQuestion() {
   secondQuestion.questionTitle = 'چه کشوری ایستگاه فضایی میر را بنا کرد؟';
   secondQuestion.imageNameNumber = '2';
   secondQuestion.correctAnswer = 0;
-  secondQuestion.answerList = [
-    'روسیه',
-    'آمریکا',
-    'هند',
-    'چین'
-  ];
+  secondQuestion.answerList = ['روسیه', 'آمریکا', 'هند', 'چین'];
 
-  return [firstQustion, secondQuestion];
+  return [firstQuestion, secondQuestion];
 }
