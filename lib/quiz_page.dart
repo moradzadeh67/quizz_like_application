@@ -27,7 +27,7 @@ class _QuizPageState extends State<QuizPage> {
         backgroundColor: Colors.indigo[800],
         title: Text(
           'سوال ${shownQuestionIndex + 1} از ${getQuestion().length}',
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ),
       body: SafeArea(
@@ -56,7 +56,7 @@ class _QuizPageState extends State<QuizPage> {
             if (isFinalAnswerSubmited)
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.red[700],
+                    backgroundColor: Colors.yellowAccent,
                     minimumSize: Size(200.0, 50.0)),
                 onPressed: () {
                   Navigator.push(
